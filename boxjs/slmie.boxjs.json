@@ -9,24 +9,28 @@
       "id": "JHSH_BD",
       "name": "建行生活_BD",
       "author": "@Slmie",
-      "descs_html": [
-        "建行生活—数据处理"
-      ],
+      "descs_html": ["建行生活—数据处理"],
       "icon": [
         "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png",
         "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png"
       ],
+      "Scripts": [
+        {
+        "name": "建行生活—数据处理",
+        "scripts": ""
+        }
+      ],
       "keys": [
-        "JHSH_BD"
+        "@JHSH_BD"
       ],
       "settings": [
         {
-          "id": "JHSH_BD",
+          "id": "@JHSH_BD",
           "name": "建行生活_BD",
           "val": "",
-          "type": "text",
-          "desc": "建行生活_BD"
+          "type": "text"
         }
       ]
     }
+  ]
 }
