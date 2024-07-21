@@ -1,0 +1,32 @@
+{
+  "id": "Slmie.app.sub",
+  "name": "Slmie 应用订阅",
+  "author": "@Slmie",
+  "icon": "https://avatars.githubusercontent.com/u/54428353?v=4",
+  "repo": "https://github.com/Slmie",
+  "apps": [
+    {
+      "id": "JHSH_BD",
+      "name": "建行生活_BD",
+      "author": "@Slmie",
+      "descs_html": [
+        "建行生活—数据处理"
+      ],
+      "icon": [
+        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png",
+        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png"
+      ],
+      "keys": [
+        "JHSH_BD"
+      ],
+      "settings": [
+        {
+          "id": "JHSH_BD",
+          "name": "建行生活_BD",
+          "val": "",
+          "type": "text",
+          "desc": "建行生活_BD"
+        }
+      ]
+    }
+}
