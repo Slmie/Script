@@ -1,34 +1,31 @@
 {
-  "id": "Slmie.app.sub",
+  "id": "slmie.app.sub",
   "name": "Slmie 应用订阅",
   "author": "@Slmie",
-  "icon": "https://avatars.githubusercontent.com/u/54428353?v=4",
+  "icon": "https://avatars.githubusercontent.com/u/54428353",
   "repo": "https://github.com/Slmie",
   "apps": [
     {
-      "id": "JHSH_BD",
-      "name": "建行生活_BD",
+      "id": "JHSH",
+      "name": "建行生活-数据处理",
       "author": "@Slmie",
-      "descs_html": ["建行生活—数据处理"],
-      "icon": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png"
+      "script": "https://github.com/Slmie/Script/blob/main/boxjs/slmie.boxjs.json",
+      "repo": "",
+      "icons": [
+        "https://avatars.githubusercontent.com/u/54428353",
+        "https://avatars.githubusercontent.com/u/54428353"
       ],
-      "Scripts": [
-        {
-        "name": "建行生活—数据处理",
-        "scripts": ""
-        }
-      ],
-      "keys": [
-        "@JHSH_BD"
-      ],
+      "descs_html": ["建行生活 - 数据处理"],
+      "keys": ["JHSH_BD"],
       "settings": [
         {
-          "id": "@JHSH_BD",
-          "name": "建行生活_BD",
+          "id": "JHSH_BD",
+          "name": "建行生活-数据",
           "val": "",
-          "type": "text"
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": ""
         }
       ]
     }
